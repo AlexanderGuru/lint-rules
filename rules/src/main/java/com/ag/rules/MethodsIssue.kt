@@ -6,7 +6,7 @@ class MethodsIssue {
     companion object {
 
         private const val ID = "Incorrect order"
-        private const val DESCRIPTION = "The method is located in the wrong order."
+        const val DESCRIPTION = "The method is located in the wrong order."
         private const val EXPLANATION = "The method is located in the wrong order."
 
         private const val PRIORITY = 6
