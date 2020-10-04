@@ -18,7 +18,7 @@ fun UMethod.getWeight(): Int {
 
 fun UField.getWeight(): Int = StatementType.FIELD.calculateWeight()
 
-fun StatementType.calculateWeight(): Int = ordinal
+fun StatementType.calculateWeight(): Int = -ordinal
 
 fun UMethod.isAbstract() = hasModifierProperty(PsiModifier.ABSTRACT)
 
